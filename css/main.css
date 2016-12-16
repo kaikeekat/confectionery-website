@@ -1,5 +1,9 @@
 html {
-  font-family: Merriweather, serif;
+  font-family: 'Mirza', cursive;
+}
+
+h2 {
+  font-family: 'Mirza', cursive;
 }
 
 .color-brand {
@@ -12,6 +16,10 @@ html {
 
 a {
   color: #568c36;
+}
+
+td {
+  text-align: right;
 }
 
 a:hover {
@@ -62,7 +70,9 @@ a:hover {
 
 th,
 td {
-  border-color: #dfdcda;
+  border-color: #fff;
+  background-color: #66ccff;
+  text-align: center;
 }
 
 .news {
@@ -96,7 +106,7 @@ td {
     position: absolute;
     width: 100%;
     background-color: transparent;
-    background-image: linear-gradient(to bottom, rgba(17, 60, 0, 0), rgba(17, 60, 0, .8));
+    background-image: linear-gradient(to bottom, rgba(102, 204, 255, 0), rgba(102, 204, 255, 1));
   }
 
 }
