@@ -1,5 +1,6 @@
 html {
   font-family: 'Mirza', cursive;
+  background-color: #66ccff;
 }
 
 h2 {
@@ -7,11 +8,11 @@ h2 {
 }
 
 .color-brand {
-  color: #568c36;
+  color: #66ccff;
 }
 
 .color-brand-dark {
-  color: #113c00;
+  color: #3333cc;
 }
 
 a {
@@ -23,7 +24,7 @@ td {
 }
 
 a:hover {
-  color: #113c00;
+  color: #3333cc;
 }
 
 .max-length {
@@ -60,7 +61,7 @@ a:hover {
 }
 
 .about-content {
-  background-color: #113c00;
+  background-color: #66ccff;
   color: #fff;
 }
 
@@ -75,23 +76,19 @@ td {
   text-align: center;
 }
 
-.news {
-  background-color: #eeebe9;
-}
-
 .contact {
   background-color: #dfdcda;
 }
 
 .btn {
-  background-color: #113c00;
-  border-color: #113c00;
+  background-color: #3333cc;
+  border-color: #3333cc;
   color: #fff;
 }
 
 .btn:hover {
-  background-color: #568c36;
-  border-color: #568c36;
+  background-color: #66ccff;
+  border-color: #66ccff;
 }
 
 .footer {

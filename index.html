@@ -46,25 +46,25 @@
     </section>
 
     <section id="treats-of-the-week">
-        <ul class="grid list-group gutter-1-2 pad-b">
+        <ul class="grid list-group gutter-1-2 pad-t">
           <li class="unit xs-1 l-1-3">
             <img class="img-flex" src="images/candy3.jpg" alt="" aria-describedat="#candy1">
-            <div id="candy1">
-              <h3>Milk Bonbons</h3>
+            <div class="island" id="candy1">
+              <h3 class="push=0">Milk Bonbons</h3>
               <p>Sweet and fresh Bonbons, perfect for any occasion.</p>
             </div>
           </li>
           <li class="unit xs-1 l-1-3">
             <img class="img-flex" src="images/candy5.jpg" alt="" aria-describedat="#candy2">
-            <div id="candy2">
-              <h3>Peppermint Patties</h3>
+            <div class="island" id="candy2">
+              <h3 class="push=0">Peppermint Patties</h3>
               <p>Small and packed with fresh, creamy mint and covered in melty milk chocolate, these are the perfect treat for the holidays</p>
             </div>
           </li>
           <li class="unit xs-1 l-1-3">
             <img class="img-flex" src="images/candy6.jpg" alt="" aria-describedat="#candy3">
-            <div id="candy3">
-              <h3>Millionaire Bars</h3>
+            <div class="island" id="candy3">
+              <h3 class="push=0">Millionaire Bars</h3>
               <p>These rich bars live up to their name, so you won't need to eat much to feel like a member of the upper class.</p>
             </div>
           </li>
@@ -189,12 +189,36 @@
     </div>
     </section>
 
-    <section id="our-story">
-      <h2></h2>
-    </section>
-
     <section id="contact">
-      <h2></h2>
+      <div class="contact pad-t pad-b" role="form">
+        <div class="wrapper">
+          <h2 class="push-0 color-brand-dark gutter-1-2">Contact</h2>
+          <p class="mega max-length gutter-1-2">Send Beau a message!</p>
+
+          <form class="grid" method="post">
+            <div class="unit xs-1 s-1 m-1-2 l-1-3 push gutter-1-2">
+              <label for="name" class="push-1-8">Your name</label>
+              <input type="text" id="name">
+            </div>
+            <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+              <label for="email" class="push-1-8">E-mail address</label>
+              <input type="text" id="email">
+            </div>
+            <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+              <label for="types" class="push-1-8">Type of shrubbery</label>
+              <select id="types">
+                <option>Two-level shrubbery</option>
+                <option>Small shrubbery</option>
+                <option>Shrubbery with laurels</option>
+                <option>Knighted shrubbery</option>
+              </select>
+            </div>
+            <div class="unit xs-1 text-center">
+              <button class="btn mega" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
 
   </main>
