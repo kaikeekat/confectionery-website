@@ -43,6 +43,7 @@ a:hover {
 .masthead {
   background-color: #33c;
   color: #fff;
+  background-image: url("../images/candy.svg");
 }
 
 .nav {
